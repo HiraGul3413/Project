@@ -1,0 +1,101 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:orientation="vertical"
+    android:background="@drawable/b4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/MK"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:width="330dp"
+        android:background="@layout/rounded_border"
+        android:gravity="top"
+        android:hint="Main Key"
+        android:padding="8dp" />
+    <EditText
+        android:id="@+id/k1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:width="330dp"
+        android:background="@layout/rounded_border"
+        android:gravity="top"
+        android:hint="Key 1"
+        android:padding="8dp" />
+    <EditText
+        android:id="@+id/k2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:width="330dp"
+        android:background="@layout/rounded_border"
+        android:gravity="top"
+        android:hint="Key 2"
+        android:padding="8dp" />
+    <EditText
+        android:id="@+id/k3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:width="330dp"
+        android:background="@layout/rounded_border"
+        android:gravity="top"
+        android:hint="Key 3"
+        android:padding="8dp" />
+    <EditText
+        android:id="@+id/k4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:width="330dp"
+        android:background="@layout/rounded_border"
+        android:gravity="top"
+        android:hint="Key 4"
+        android:padding="8dp" />
+    <EditText
+        android:id="@+id/k5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:width="330dp"
+        android:background="@layout/rounded_border"
+        android:gravity="top"
+        android:hint="Key 5"
+        android:padding="8dp" />
+    <EditText
+        android:id="@+id/ans"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:width="330dp"
+        android:background="@layout/rounded_border"
+        android:gravity="top"
+        android:hint="Answer"
+        android:padding="8dp" />
+    <Button
+        android:id="@+id/add"
+        android:text="ADD"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:background="@color/colorPrimary"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</ScrollView>

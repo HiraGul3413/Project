@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_viewprofile"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="View Profile" />
+        <item
+            android:id="@+id/nav_chatbot"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Chatbot" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@android:drawable/btn_star"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_secure"
+            android:title="Logout" />
+    </group>
+
+</menu>
